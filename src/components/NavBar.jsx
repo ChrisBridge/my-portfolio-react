@@ -14,13 +14,12 @@ export default class NavBar extends Component {
         return (
         <>
 
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
                 <Container>
                     <Navbar.Brand>React-Bootstrap</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
-                        {/* <Nav.Link to={'/about'}>Home</Nav.Link> */}
                         <Nav.Link> <Link to={'/'}>Home</Link> </Nav.Link>
                         <Nav.Link> <Link to={'/About'}>About</Link> </Nav.Link>
                         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
