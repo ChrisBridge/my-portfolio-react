@@ -2,9 +2,13 @@ import React, { Component } from 'react'
 import { Nav } from 'react-bootstrap'
 import { Navbar } from 'react-bootstrap'
 import { Container } from 'react-bootstrap'
-import { NavDropdown } from 'react-bootstrap'
-
 import { Link } from 'react-router-dom'
+
+import './NavBarStyle.scss'
+import Logo from '../logo.svg'
+import { FaFacebook } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 
 
@@ -14,21 +18,25 @@ export default class NavBar extends Component {
         return (
         <>
 
-            <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+            <Navbar className='nav' bg="dark" variant="dark" expand="lg" sticky="top">
                 <Container>
-                    <Navbar.Brand>React-Bootstrap</Navbar.Brand>
+                    <Navbar.Brand>
+                        <img src= { Logo } alt="logo" />
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
-                        <Nav.Link> <Link to={'/'}>Home</Link> </Nav.Link>
-                        <Nav.Link> <Link to={'/About'}>About</Link> </Nav.Link>
-                        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                        <NavDropdown.Item>Action</NavDropdown.Item>
-                        <NavDropdown.Item>Another action</NavDropdown.Item>
-                        <NavDropdown.Item>Something</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item>Separated link</NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Link className='link'><Link to={'/'}>Home</Link> </Nav.Link>
+                        <Nav.Link className='link'><Link to={'/About'}>About</Link> </Nav.Link>
+                        <Nav.Link className='link'><Link to={'/Work'}>Work</Link> </Nav.Link>
+                        <Nav.Link className='link'><Link to={'/Contact'}>Contact</Link> </Nav.Link>
+                    </Nav>
+                    <Nav>
+                        <Nav.Link className='link'> <Link to={'/'}><FaFacebook /></Link> </Nav.Link>
+                        <Nav.Link className='link'> <Link to={'/'}><FaGithub /></Link> </Nav.Link>
+                        <Nav.Link className='link'> <Link to={'/'}><FaLinkedinIn /></Link> </Nav.Link>
+                        
+                        
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
