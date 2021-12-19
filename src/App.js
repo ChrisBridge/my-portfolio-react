@@ -6,7 +6,7 @@ export default class App extends Component {
   render() {
     return (
       <Container> 
-        <section className='mt-5'>
+        <section>
           <Hero />
         </section>  
         

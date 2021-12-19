@@ -18,7 +18,7 @@ export default class NavBar extends Component {
         return (
         <>
 
-            <Navbar className='nav' bg="transparent" variant="dark" expand="lg" sticky="top">
+            <Navbar className='nav' variant="dark" expand="lg" sticky="top">
                 <Container>
                     <Navbar.Brand>
                         <img src= {Logo} alt="logo" />
