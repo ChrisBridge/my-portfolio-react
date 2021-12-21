@@ -15,3 +15,18 @@ nav{
         font-size: 30px;
     }
 }
+
+@media (max-width: 768px) {
+  .navbar-nav{
+    text-align: center;
+  }
+  .navbar-collapse{
+      padding-top: 30px;
+  }
+  .socialIcon{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #000;
+  }
+}

@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 // import './NavBar.css'
 import './NavBarStyle.scss'
-import Logo from '../logo-white.png'
+import Logo from '../img/logo-white.png'
 import { FaFacebook } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
@@ -31,7 +31,7 @@ export default class NavBar extends Component {
                         <Nav.Link className='link'><Link to={'/Work'}>Work</Link> </Nav.Link>
                         <Nav.Link className='link'><Link to={'/Contact'}>Contact</Link> </Nav.Link>
                     </Nav>
-                    <Nav>
+                    <Nav className='socialIcon'>
                         <Nav.Link className='link icon_social'> <Link to={'/'}><FaFacebook /></Link> </Nav.Link>
                         <Nav.Link className='link icon_social'> <Link to={'/'}><FaGithub /></Link> </Nav.Link>
                         <Nav.Link className='link icon_social'> <Link to={'/'}><FaLinkedinIn /></Link> </Nav.Link>
