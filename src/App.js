@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Container,} from 'react-bootstrap'
 import Hero from './components/Hero'
+import Str from './components/str'
 
 export default class App extends Component {
   render() {
@@ -8,7 +9,10 @@ export default class App extends Component {
       <Container> 
         <section>
           <Hero />
-        </section>  
+        </section>
+        <section>
+          <Str />
+        </section>
         
       </Container>
     )

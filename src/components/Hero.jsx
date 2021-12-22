@@ -7,7 +7,7 @@ import './Hero.scss'
 
 function Hero() {
     return (  
-
+        <section className='hero'>    
             <Row>
                 <Col md={6}> 
                     <div className="hero_content">
@@ -20,7 +20,7 @@ function Hero() {
                     <img src={image} alt="Future" className='hero_image'/>
                 </Col>
             </Row>
-
+        </section>
     )
 }
 
