@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { CardGroup, Col, Container,} from 'react-bootstrap'
 import Hero from './components/Hero'
-<<<<<<< Updated upstream
+
 import Str from './components/str'
 import { Row } from 'react-bootstrap'
 
@@ -9,10 +9,6 @@ import ImageOne from './img/box-1.png'
 import ImageTwo from './img/box-2.png'
 import ImageTree from './img/box-3.png'
 
-=======
-// import Str from './components/str'
-import Cards from './components/cards'
->>>>>>> Stashed changes
 
 export default class App extends Component {
   state ={
@@ -25,7 +21,6 @@ export default class App extends Component {
   render() {
     return (
       <Container> 
-<<<<<<< Updated upstream
           <Hero />      
         <Row>
           <CardGroup>
@@ -39,11 +34,6 @@ export default class App extends Component {
             ))}
           </CardGroup>
         </Row>
-        
-=======
-          <Hero />
-          <Cards />
->>>>>>> Stashed changes
       </Container>
     )
   }
