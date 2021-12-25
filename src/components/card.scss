@@ -1,0 +1,22 @@
+
+.card-group{
+    margin-bottom: 100px;
+    background: transparent;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .card-group{
+      margin-top: 150px;
+  }
+}
+
+.card{
+    padding: 10px;
+    background: transparent;
+    border: none;
+    .card-body{
+        color:#fff;
+    }
+}
