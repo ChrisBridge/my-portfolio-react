@@ -9,12 +9,6 @@ import ImageOne from './img/box-1.png'
 import ImageTwo from './img/box-2.png'
 import ImageTree from './img/box-3.png'
 
-<<<<<<< Updated upstream
-=======
-import Slide from './components/slideLogo'
-
->>>>>>> Stashed changes
-
 export default class App extends Component {
   state ={
     cards: [
@@ -39,11 +33,6 @@ export default class App extends Component {
             ))}
           </CardGroup>
         </Row>
-<<<<<<< Updated upstream
-=======
-
-        <Slide />
->>>>>>> Stashed changes
       </Container>
     )
   }
