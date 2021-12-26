@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './card.scss'
+import './box-intro.scss'
 import { Card, Col } from 'react-bootstrap'
 
 export default class str extends Component {
