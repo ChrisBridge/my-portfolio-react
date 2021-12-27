@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { CardGroup, Col, Container,} from 'react-bootstrap'
 import Hero from './components/Hero'
+import Tech from './components/technology'
+import Feature from './components/feature'
 
 import BoxIntro from './components/box-intro'
 import { Row } from 'react-bootstrap'
@@ -20,7 +22,8 @@ export default class App extends Component {
   render() {
     return (
       <Container> 
-          <Hero />      
+          <Hero /> 
+          <Tech />     
         <Row>
           <CardGroup>
             {this.state.cards.map(card => (
@@ -33,6 +36,7 @@ export default class App extends Component {
             ))}
           </CardGroup>
         </Row>
+        <Feature />
       </Container>
     )
   }

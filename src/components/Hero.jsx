@@ -17,7 +17,7 @@ function Hero() {
                     </div>
                 </Col>
                 <Col md={6}>
-                    <img src={image} alt="Future" className='hero_image'/>
+                    <img src={image} alt="Future" className='scale-up-center hero_image'/>
                 </Col>
             </Row>
         </section>

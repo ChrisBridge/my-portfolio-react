@@ -1,0 +1,24 @@
+*,
+*:before,
+*:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+.feature_img{
+    width: 100%;
+}
+
+.feature_content{
+    text-align: end;
+    h2{
+        font-size: 80px;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 20px;
+    }
+}
