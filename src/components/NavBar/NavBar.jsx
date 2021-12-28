@@ -3,13 +3,11 @@ import { Nav } from 'react-bootstrap'
 import { Navbar } from 'react-bootstrap'
 import { Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-// import './NavBar.css'
 import './NavBarStyle.scss'
-import Logo from '../img/logo-white.png'
+import Logo from '../../img/logo-white.png'
 import { FaFacebook } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
-
 
 
 

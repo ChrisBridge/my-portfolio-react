@@ -1,14 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import  'bootstrap/dist/css/bootstrap.min.css' ;
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './styled/index.scss'
+import './styled/variables.scss'
+import  'bootstrap/dist/css/bootstrap.min.css' 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import NavBar from './components/NavBar';
-import About from './page/about';
-import App from './App';
-import Work from './page/work';
-import Contact from './page/contact';
-
+import NavBar from './components/NavBar/NavBar'
+import About from './layout/about'
+import App from './App'
+import Work from './layout/work'
+import Contact from './layout/contact'
+import Footer from './components/Footer/footer'
 
 
 ReactDOM.render(
@@ -20,6 +21,7 @@ ReactDOM.render(
           <Route exact path="/work" element={<Work />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
+    <Footer />
   </Router>,
   
   document.getElementById('root')

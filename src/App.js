@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import { CardGroup, Col, Container,} from 'react-bootstrap'
-import Hero from './components/Hero'
-import Tech from './components/technology'
-import Feature from './components/feature'
+import Hero from './components/Hero/Hero'
+import Tech from './components/Tech/technology'
+import Feature from './components/Feature/feature'
 
-import BoxIntro from './components/box-intro'
+import BoxIntro from './components/BoxIntro/box-intro'
 import { Row } from 'react-bootstrap'
 
 import ImageOne from './img/box-1.png'

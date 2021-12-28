@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Row } from 'react-bootstrap'
 import { Col } from 'react-bootstrap'
-import image from '../img/hero.png'
+import image from '../../img/hero.png'
 import './Hero.scss'
 
 

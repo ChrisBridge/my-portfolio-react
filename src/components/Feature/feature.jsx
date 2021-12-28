@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './feature.scss'
 import {Row, Col} from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
-import Image from '../img/Feature.png'
+import Image from '../../img/Feature.png'
 
 export default class feature extends Component {
     render() {
