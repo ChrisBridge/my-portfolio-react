@@ -10,7 +10,7 @@ export default class feature extends Component {
         <>
         <Row className="align-items-center" >
             <Col xs={12} md={6}>
-                <img src={Image} alt="" className='feature_img' />
+                <img src={Image} alt="" className='rotate-center feature_img' />
             </Col>  
             <Col xs={12} md={6}>
                 <div className="feature_content mt-5">

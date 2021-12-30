@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './App.css'
 import { CardGroup, Col, Container,} from 'react-bootstrap'
 import Hero from './components/Hero/Hero'
 import Tech from './components/Tech/technology'
