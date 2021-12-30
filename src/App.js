@@ -4,6 +4,7 @@ import { CardGroup, Col, Container,} from 'react-bootstrap'
 import Hero from './components/Hero/Hero'
 import Tech from './components/Tech/technology'
 import Feature from './components/Feature/feature'
+import Contact from './components/Contact/contact'
 
 import BoxIntro from './components/BoxIntro/box-intro'
 import { Row } from 'react-bootstrap'
@@ -22,9 +23,11 @@ export default class App extends Component {
   }
   render() {
     return (
-      <Container> 
-          <Hero /> 
-          <Tech />     
+      <Container>
+        <Hero /> 
+        <section>
+          <Tech />
+        </section>    
         <Row>
           <CardGroup>
             {this.state.cards.map(card => (
@@ -38,6 +41,7 @@ export default class App extends Component {
           </CardGroup>
         </Row>
         <Feature />
+        <Contact />
       </Container>
     )
   }

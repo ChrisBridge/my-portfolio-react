@@ -11,7 +11,7 @@ export default class technology extends Component {
     render() {
         return (
         <>
-            <section>
+            
                 <Container>
                     <ul className="icon-tech">
                         <li><FaHtml5 /></li>
@@ -21,7 +21,7 @@ export default class technology extends Component {
                         <li><FaReact /></li>
                     </ul>
                 </Container>
-            </section>
+            
         </>
         )
     }

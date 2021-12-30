@@ -1,6 +1,5 @@
 .hero{
     height: 80vh;
-    padding-top: 100px;
 
     .hero_content{
         padding-top: 5rem;
@@ -23,6 +22,8 @@
     .hero_image{
         width: 100%;
     }
+
+
 
     @media (max-width: 768px) {
         .hero_content{
