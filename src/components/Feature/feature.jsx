@@ -8,9 +8,9 @@ export default class feature extends Component {
     render() {
         return (
         <>
-        <Row className="align-items-center" >
+        <Row className="feature_box" >
             <Col xs={12} md={6}>
-                <img src={Image} alt="" className='rotate-center feature_img' />
+                <img src={Image} alt="" className='feature_img' />
             </Col>  
             <Col xs={12} md={6}>
                 <div className="feature_content mt-5">
