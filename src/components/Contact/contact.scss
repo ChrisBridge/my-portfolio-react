@@ -1,0 +1,18 @@
+.form_box{
+    .contact_form{
+        h2{
+            font-size: 80px;
+            font-weight: bold;
+        }
+    }
+}
+.contact_img{
+    width: 100%;
+}
+.form-control,
+.form-select {
+    background-color: transparent;
+    color: #285c91;
+    border: 1px solid #285c91;
+    padding: 1rem 0.75rem;
+}

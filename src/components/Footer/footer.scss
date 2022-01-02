@@ -1,0 +1,18 @@
+.footer{
+    background-color: #040c18;
+    img{
+        width: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+  .footer{
+      text-align: center;
+      img{
+          margin-bottom: 2rem;
+      }
+      .copy{
+          text-align: center!important;
+      }
+  }
+}
