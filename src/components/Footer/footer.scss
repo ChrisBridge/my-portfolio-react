@@ -4,3 +4,12 @@
         width: 100px;
     }
 }
+
+@media (max-width: 768px) {
+  .footer{
+      text-align: center;
+      img{
+          margin-bottom: 2rem;
+      }
+  }
+}
