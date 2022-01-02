@@ -12,7 +12,7 @@ export default class footer extends Component {
                 <Row className='align-items-center justify-content-end'>
                     <Col xs={12} md={6}><img src={Logo} alt="Future" className='logo_footer' /></Col>
                     {/* <Col xs={12} md={4}>2 of 3 (wider)</Col> */}
-                    <Col xs={12} md={6} className='text-end'>Copyright © {new Date().getUTCFullYear()}. Chris Mann. All Rights Reserved.</Col>     
+                    <Col xs={12} md={6} className='text-end copy'>Copyright © {new Date().getUTCFullYear()}. Chris Mann. All Rights Reserved.</Col>     
                 </Row> 
             </Container>
             </div>

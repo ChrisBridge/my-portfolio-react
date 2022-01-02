@@ -42,9 +42,9 @@ export default class App extends Component {
             ))}
           </CardGroup>
         </Row>
-        <Feature />
-        <Skill />
-        <Contact />
+          <Feature />
+            <Skill />
+              <Contact />
       </Container>
     )
   }
