@@ -1,7 +1,7 @@
 .form_box{
     .contact_form{
         h2{
-            font-size: 80px;
+            font-size: 100px;
             font-weight: bold;
         }
     }
@@ -15,4 +15,20 @@
     color: #285c91;
     border: 1px solid #285c91;
     padding: 1rem 0.75rem;
+}
+
+.btn-outline-warning {
+    color: #fff;
+    border-color: #285c91;
+    &:hover{
+        background: #285c91;
+        color: #fff;
+        border-color: #285c91;
+    }&:focus{
+        box-shadow: 0 0 0 0.25rem #285c9180;
+    }&:active{
+        color: #000;
+        background-color: #285c91;
+        border-color: #285c91;
+    }
 }

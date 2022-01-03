@@ -1,6 +1,8 @@
 .hero{
     height: 80vh;
-
+    @media (min-width: 1280px) {
+        padding-top: 100px;
+    }    
     .hero_content{
         padding-top: 5rem;
         .bigTitle{
@@ -10,12 +12,12 @@
             color: #ffc107;
         }
         .hero_title{
-            font-size: 7rem;
+            font-size: 5.8rem;
             font-weight: 800;
             line-height: 1;
         }
         .hero_text{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
     }
 
@@ -23,7 +25,9 @@
         width: 100%;
     }
 
-
+/* -------------------------------------------------------------------------------- */
+/* ! media query smartphone */
+/* -------------------------------------------------------------------------------- */
 
     @media (max-width: 768px) {
         .hero_content{
@@ -74,3 +78,13 @@
     }
   }
   
+
+/* -------------------------------------------------------------------------------- */
+/* ! media query tablet */
+/* -------------------------------------------------------------------------------- */  
+
+@media (max-width: 1023px) {
+    .hero {
+        height: 20vh;
+    }
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './contact.scss'
-import { Row, Col, Form, FloatingLabel } from 'react-bootstrap'
+import { Row, Col, Form, FloatingLabel,Button } from 'react-bootstrap'
 import Image from '../../img/box-2.png'
 
 export default class contact extends Component {
@@ -27,8 +27,9 @@ export default class contact extends Component {
                             <option value="3">E-Commerce</option>
                         </Form.Select>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                            <Form.Control as="textarea" rows={6} placeholder="Text Area"/>
+                            <Form.Control as="textarea" rows={5} placeholder="Text Area"/>
                         </Form.Group>
+                        <Button variant="outline-warning">Click Here</Button>
                     </div>    
                 </Col>
                 <Col sm={12} md={6}>
