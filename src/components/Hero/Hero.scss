@@ -1,8 +1,6 @@
 .hero{
-    height: 80vh;
-    @media (min-width: 1280px) {
-        padding-top: 100px;
-    }    
+    height: 100%;
+    padding: 50px 0; 
     .hero_content{
         padding-top: 5rem;
         .bigTitle{
@@ -83,8 +81,10 @@
 /* ! media query tablet */
 /* -------------------------------------------------------------------------------- */  
 
-@media (max-width: 1023px) {
+@media (max-width: 820px) {
     .hero {
-        height: 20vh;
+        height: 100%;
+        padding-top: 50px;
+        text-align: center;
     }
 }

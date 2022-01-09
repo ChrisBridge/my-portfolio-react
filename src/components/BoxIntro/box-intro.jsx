@@ -6,7 +6,7 @@ export default class str extends Component {
     render() {
         return (
           <>
-          <Col>
+          <Col xs={12} md={12} lg={4}>
             <Card>
               <Card.Img variant="top" src={this.props.immagine} />
               <Card.Body>

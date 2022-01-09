@@ -7,7 +7,11 @@ export default class contact extends Component {
     render() {
         return (
         <>
-            <Row className='form_box'>
+            <Row className='form_box align-items-center'>
+                <Col sm={12} md={6}>
+                    <img src={Image} alt="" className='contact_img' />
+                </Col>
+                
                 <Col sm={12} md={6}>
                     <div className="contact_form">
                         <h2>Here Me...</h2>
@@ -31,9 +35,6 @@ export default class contact extends Component {
                         </Form.Group>
                         <Button variant="outline-warning">Click Here</Button>
                     </div>    
-                </Col>
-                <Col sm={12} md={6}>
-                    <img src={Image} alt="" className='contact_img' />
                 </Col>
             </Row>
         </>

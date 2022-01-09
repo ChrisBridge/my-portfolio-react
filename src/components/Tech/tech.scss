@@ -9,16 +9,8 @@ ul.icon-tech{
         margin: 20px;
     }
 }
-
-@media (min-width: 1200px) {
-  ul.icon-tech{
-      margin-top: 100px;
-  }
-}
-
 @media (max-width: 768px) {
   ul.icon-tech{
-      margin-top: 250px;
       font-size: 30px;
   }
 }

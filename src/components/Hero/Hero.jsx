@@ -9,7 +9,7 @@ function Hero() {
     return (  
         <section className='hero'>    
             <Row>
-                <Col md={6}> 
+                <Col xs={12} md={12} lg={6}> 
                     <div className="hero_content">
                         <h1 className='hero_title'>
                             <span title="Explore" className='bigTitle'>Explore</span> the Future</h1>
@@ -17,7 +17,7 @@ function Hero() {
                         <Button variant="warning" size="lg">Warning</Button>{' '}
                     </div>
                 </Col>
-                <Col md={6}>
+                <Col xs={12} md={12} lg={6}>
                     <img src={image} alt="Future" className='scale-up-center hero_image'/>
                 </Col>
             </Row>
