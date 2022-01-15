@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Global.scss'
-import { CardGroup, Col, Container,} from 'react-bootstrap'
+import { CardGroup, Container,} from 'react-bootstrap'
 import Hero from './components/Hero/Hero'
 import Tech from './components/Tech/technology'
 import Feature from './components/Feature/feature'
