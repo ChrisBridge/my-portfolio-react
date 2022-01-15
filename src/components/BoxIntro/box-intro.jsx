@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import './card.scss'
+import './box-intro.scss'
 import { Card, Col } from 'react-bootstrap'
 
 export default class str extends Component {
     render() {
         return (
           <>
-          <Col>
+          <Col xs={12} md={12} lg={4}>
             <Card>
               <Card.Img variant="top" src={this.props.immagine} />
               <Card.Body>

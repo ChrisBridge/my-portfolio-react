@@ -1,0 +1,16 @@
+ul.icon-tech{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    li{
+        margin: 20px;
+    }
+}
+@media (max-width: 768px) {
+  ul.icon-tech{
+      font-size: 30px;
+  }
+}

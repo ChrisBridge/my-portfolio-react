@@ -3,13 +3,11 @@ import { Nav } from 'react-bootstrap'
 import { Navbar } from 'react-bootstrap'
 import { Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-// import './NavBar.css'
 import './NavBarStyle.scss'
-import Logo from '../img/logo-white.png'
+import Logo from '../../img/logo-white.png'
 import { FaFacebook } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
-
 
 
 
@@ -21,7 +19,9 @@ export default class NavBar extends Component {
             <Navbar className='nav' variant="dark" expand="lg" sticky="top">
                 <Container>
                     <Navbar.Brand>
-                        <img src= {Logo} alt="logo" />
+                        <Link to={'/'}>
+                            <img src= {Logo} alt="logo" />
+                        </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

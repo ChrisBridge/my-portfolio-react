@@ -1,0 +1,42 @@
+.skill{
+    margin: 200px 0;
+    .bar{
+        height: 6px;
+        width: 70px;
+        background-color: #ffc107;
+        margin: 1rem 0;
+
+    }
+    h1{
+        font-size: 55px;
+        font-weight: 900;
+        line-height: 0.9;
+    }
+
+    a{
+        color: aliceblue;
+        &:hover{
+            color: #ffc107;
+        }
+    }
+
+    .progress-bar {
+        background: #ffc107;
+        color: #2697a8;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 768px) {
+    .skill{
+        margin: 50px 0;
+        .bar{
+            margin: 1rem auto;
+        }
+        .skill_content{
+            padding: 1rem!important;
+            text-align: center;
+        }
+    }
+}
